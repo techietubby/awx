@@ -6,7 +6,7 @@ metadata:
 spec:
   service_type: NodePort
   ingress_type: ingress
-  hostname: awx-demo.peresphone.local
+  hostname: awx-demo.persephone.local
   projects_persistence: true
   projects_storage_class: local-path
   projects_storage_size: 1Gi

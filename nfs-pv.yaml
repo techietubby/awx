@@ -17,6 +17,6 @@ spec:
     - nfsvers=4.1
   persistentVolumeReclaimPolicy: Retain
   nfs:
-    server: phxitz2fst2p01.corp.nutanix.com
+    server: 192.168.0.150
     path: "/awx-projects"
     readOnly: false
