@@ -1,0 +1,13 @@
+apiVersion: awx.ansible.com/v1beta1
+kind: AWX
+metadata:
+  name: awx-demo
+  namespace: default
+spec:
+  service_type: NodePort
+  ingress_type: ingress
+  hostname: awx-demo.peresphone.local
+  projects_persistence: true
+  projects_storage_class: local-path
+  projects_storage_size: 1Gi
+  projects_storage_access_mode: ReadWriteOnce
